@@ -1,6 +1,6 @@
-# 候选文件准入清单
+# 公开文件清单
 
-本表记录经本次发布准入审查的文件；发布依据与第三方许可见 THIRD_PARTY_NOTICES.md。私人状态、来源hash对照和原始日志留在候选之外。
+仅记录当前仓库文件；许可边界及第三方材料以LICENSE和来源说明为准。私人日志、原始归档、数据与模型不纳入。
 
 | 文件 | 字节 | SHA256 |
 |---|---:|---|
@@ -102,8 +102,17 @@
 | `app/src/test/java/com/autoledgercn/PermissionGuideStateTest.kt` | 640 | 1a0657917ffd2e60b4d01711867b0dcf0f6641aa31f5be0da8a874566386fa1d |
 | `app/src/test/java/com/autoledgercn/SelectableStatsRangeTest.kt` | 2671 | 037ebbb0f188a245988bfcf34dfc601609bf126d1163818d1eaf4abc917f7762 |
 | `app/src/test/java/com/autoledgercn/UiCopyTest.kt` | 1600 | be04478fbd8df7dcbd1d0ad77b1cd6c614d4e6f60c0994e4f7f07d5a54e1e7dc |
+| `assets/badges/tech-0.svg` | 417 | c8e8c05e726c0aa24428507f944784e0d9aeb387be3f0dddeb3e973bc7349561 |
+| `assets/badges/tech-1.svg` | 412 | e2f243b518b9d6b38699974d5349ac775b77e2b1d18b911b60b21f3b10bb0ebf |
+| `assets/badges/tech-2.svg` | 432 | 2f6062215a4e636cb64be957fe6ebe1dc2c315c7c576e60f1f2628fea62ae653 |
+| `assets/badges/tech-3.svg` | 406 | 0ccfae3763c230d6531ef8f20e3eff7fe6ca6a47457d38d035c7632761c7e1fe |
+| `assets/logo.svg` | 515 | 3266031e86f1df8b43d932cb3a6c7963f469a3e8c467c9fb6da2e3d6dce5713c |
+| `assets/README.md` | 569 | c08eb4a47b27ace6b58ac53c9c7e55dc06f2b01292880f48a55ee7fb065e6aa3 |
+| `assets/social-preview.png` | 32189 | 12f34a9fea53d9684c8c2095f61802d668873833e0e98d40c90b4a7faa490ef9 |
+| `assets/social-preview.svg` | 796 | 9d37f577055a2e89ade303d3242ef7b519ff742127d566fba1d95450380f25ad |
 | `build.gradle.kts` | 282 | 0569df4152a0b0974894201355811482356454c4bdd22fb5455862a8de88f822 |
 | `docs/ARCHITECTURE.md` | 1300 | dd972424de632511c7ce3d2f61c8dcb8d759a72b718606773003febeb1f49c2b |
+| `docs/LICENSE_REVIEW.md` | 1224 | 089a323a165bf33e1dfc256b328bdbffaee200e463d7b8fe8ece42b8259d6d75 |
 | `docs/PRIVACY_AND_ASSETS.md` | 1197 | 46e52f86ea8453216b824fee52bcf962317b9cd2ad66004d24e235a8cdadb23c |
 | `docs/RUNNING.md` | 1481 | efc5487e7d95e15b19c9402207b551cbab4bb43e59b48f69e4ae2dea5439a4fe |
 | `EXCLUDED_FILES.md` | 575 | 98ff9e9bb6ae5cf87824a348769c7e42ab13bc92cfedc8071b7af7ac7cb34bf4 |
@@ -113,7 +122,7 @@
 | `gradlew` | 8618 | fb68debc1b1acf8ec55dc0d5e5495e1dedd0bd6b61f304bee61613eeb2bd9b92 |
 | `gradlew.bat` | 2896 | fedad02c18e266ec094995a5751b7fe1eb6e74f66bf75db64fae2e50eb22c234 |
 | `LICENSES/Gradle-Apache-2.0.txt` | 10174 | 0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594 |
-| `README.md` | 3026 | 36b7de4e4fe9a734af63a9ea13b2d7ba0e0cc0bac32e599f4cff2e028f5490b2 |
+| `README.md` | 5353 | 8a5b2485ece9f5fea2962344222f775ca36a7bdd5178bb5cf1752e70f05a5a97 |
 | `settings.gradle.kts` | 332 | 95550d5ad0ce2e1e67930b262c767f695880727d94a7775fedf5a32e2c91e685 |
 | `THIRD_PARTY_NOTICES.md` | 1091 | 0b810753517ab3135bc63bbe370b7916facd8e3830955ca0c1a001cda65669b0 |
 | `VERIFICATION.md` | 1813 | 76eec1ef7a94dec9161298ef6f7ef747bf6e17fc4f363cf1d19f1e7fd99b3fcb |
