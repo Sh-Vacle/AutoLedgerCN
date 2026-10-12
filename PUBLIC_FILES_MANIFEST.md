@@ -107,7 +107,8 @@
 | `assets/badges/tech-2.svg` | 432 | 2f6062215a4e636cb64be957fe6ebe1dc2c315c7c576e60f1f2628fea62ae653 |
 | `assets/badges/tech-3.svg` | 406 | 0ccfae3763c230d6531ef8f20e3eff7fe6ca6a47457d38d035c7632761c7e1fe |
 | `assets/logo.svg` | 515 | 3266031e86f1df8b43d932cb3a6c7963f469a3e8c467c9fb6da2e3d6dce5713c |
-| `assets/README.md` | 569 | c08eb4a47b27ace6b58ac53c9c7e55dc06f2b01292880f48a55ee7fb065e6aa3 |
+| `assets/pipeline.svg` | 2717 | b13ea0ad387a9a9df89ee7ad894066b34a2e319e44e2a9633be9fbd9287a5fbf |
+| `assets/README.md` | 574 | b0b631d2de2ca2a5eb63ddb13caf44697e89f731af1e9b94a2b67c34122780e8 |
 | `assets/social-preview.png` | 32189 | 12f34a9fea53d9684c8c2095f61802d668873833e0e98d40c90b4a7faa490ef9 |
 | `assets/social-preview.svg` | 796 | 9d37f577055a2e89ade303d3242ef7b519ff742127d566fba1d95450380f25ad |
 | `build.gradle.kts` | 282 | 0569df4152a0b0974894201355811482356454c4bdd22fb5455862a8de88f822 |
@@ -122,7 +123,7 @@
 | `gradlew` | 8618 | fb68debc1b1acf8ec55dc0d5e5495e1dedd0bd6b61f304bee61613eeb2bd9b92 |
 | `gradlew.bat` | 2896 | fedad02c18e266ec094995a5751b7fe1eb6e74f66bf75db64fae2e50eb22c234 |
 | `LICENSES/Gradle-Apache-2.0.txt` | 10174 | 0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594 |
-| `README.md` | 5353 | 8a5b2485ece9f5fea2962344222f775ca36a7bdd5178bb5cf1752e70f05a5a97 |
+| `README.md` | 4891 | 0dba68793c0eba6678a7ee0bcfc75e16d42fbddfc6716440eb9e5215d4242ef9 |
 | `settings.gradle.kts` | 332 | 95550d5ad0ce2e1e67930b262c767f695880727d94a7775fedf5a32e2c91e685 |
 | `THIRD_PARTY_NOTICES.md` | 1091 | 0b810753517ab3135bc63bbe370b7916facd8e3830955ca0c1a001cda65669b0 |
 | `VERIFICATION.md` | 1813 | 76eec1ef7a94dec9161298ef6f7ef747bf6e17fc4f363cf1d19f1e7fd99b3fcb |

@@ -35,22 +35,7 @@ Kotlin Android 应用，使用通知监听、规则解析与多层去重，把�
 
 ## 业务数据流
 
-```mermaid
-flowchart TD
-    A[用户授权 / 所选应用通知] --> B[通知候选过滤与金额解析]
-    B --> C[原通知指纹与交易指纹]
-    C --> D[跨来源匹配 / 冲突识别]
-    D --> E[本地规则分类]
-    D --> F[待确认交易]
-    E --> G[LedgerRepository / Room]
-    F --> G
-    G --> H[Flow / LedgerViewModel]
-    H --> I[Compose 流水与统计]
-    classDef primary fill:#16345b,color:#fff,stroke:#16345b
-    classDef secondary fill:#e6f7fa,color:#16345b,stroke:#087e8b
-    class A,G,I primary
-    class B,C,D,E,F,H secondary
-```
+<p align="center"><img src="assets/pipeline.svg" width="420" alt="AutoLedgerCN业务流程图"></p>
 
 该图概括通知处理与数据展示，不表示每条通知均直接入账。实现入口：[通知服务](app/src/main/java/com/autoledgercn/service/AutoLedgerNotificationListener.kt)、[解析器](app/src/main/java/com/autoledgercn/domain/parser/NotificationParser.kt)、[去重引擎](app/src/main/java/com/autoledgercn/domain/dedup/DeduplicationEngine.kt)、[仓储](app/src/main/java/com/autoledgercn/data/repository/LedgerRepository.kt)。
 
