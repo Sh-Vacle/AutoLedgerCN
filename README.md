@@ -10,12 +10,6 @@
 
 [业务源码](app/src/main/java/com/autoledgercn) · [运行说明](docs/RUNNING.md) · [架构](docs/ARCHITECTURE.md) · [验证记录](VERIFICATION.md)
 
-## 🛠️ 项目状态
-
-当前版本完成了工程结构、资源引用和源码差异的静态检查，**尚未构建或实机验收**。13个JUnit测试文件及新增异常金额用例未运行；历史Debug成功记录不能替代本版本验收。暂无可验证的App截图。
-
-分类由 `LocalRuleClassifier` 完成；`AiClassifier` 仅为接口，`NoopAiClassifier` 返回null，未接入大模型或云AI。应用没有后端服务或登录系统。
-
 ## ✨ 功能与工程难点
 
 - **通知接入**：NotificationListenerService 监听用户选择的应用，过滤非交易候选并保存诊断。
@@ -46,6 +40,12 @@ app/src/main/java/com/autoledgercn/
 app/src/main/res/  # Manifest引用的实际资源
 app/src/test/      # 本地JUnit源码
 ```
+
+## 🛠️ 项目状态
+
+当前版本完成了工程结构、资源引用和源码差异的静态检查，**尚未构建或实机验收**。13个JUnit测试文件及新增异常金额用例未运行；历史Debug成功记录不能替代本版本验收。暂无可验证的App截图。
+
+分类由 `LocalRuleClassifier` 完成；`AiClassifier` 仅为接口，`NoopAiClassifier` 返回null，未接入大模型或云AI。应用没有后端服务或登录系统。
 
 ## 🔒 隐私与来源
 
