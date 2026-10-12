@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/logo.svg" width="94" alt="💰 AutoLedgerCN Logo"></p>
+<p align="center"><a href="https://github.com/Sh-Vacle/AutoLedgerCN"><img src="assets/logo.svg" width="94" alt="💰 AutoLedgerCN Logo"></a></p>
 
 <h1 align="center">💰 AutoLedgerCN</h1>
 
