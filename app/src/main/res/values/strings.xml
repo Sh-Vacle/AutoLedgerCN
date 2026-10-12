@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">本地记账</string>
+    <string name="notification_listener_label">本地记账通知记账</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original geometric ledger symbol; no third-party character pixels. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp" android:height="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="#A9652F" android:pathData="M18,16 L78,16 L78,80 L18,80 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M28,28 L68,28 L68,32 L28,32 Z M28,42 L56,42 L56,46 L28,46 Z M28,56 L68,56 L68,60 L28,60 Z M28,70 L52,70 L52,74 L28,74 Z" />
+</vector>
